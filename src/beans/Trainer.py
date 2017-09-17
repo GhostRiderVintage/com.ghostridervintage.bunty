@@ -27,6 +27,3 @@ class Trainer(object):
         print(self.__name)
 
 
-
-
-
