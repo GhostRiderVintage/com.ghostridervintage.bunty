@@ -14,3 +14,4 @@ class MyClass(object):
         '''
         Constructor
         '''
+        print("contructor")
