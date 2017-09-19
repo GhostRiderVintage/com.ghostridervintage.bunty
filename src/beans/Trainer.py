@@ -9,15 +9,22 @@ class Trainer(object):
     '''
     classdocs
     '''
+
     trainer_id = 0
-    __name ="boy"
-    __age =-1
-    __email = ""
-    __phone = ""
-    __gender =""
-    __dob = ""
-    __email = ""
-    __address = ""
+    name ="boy"
+    age =-1
+    email = ""
+    phone = ""
+    gender =""
+    dob = ""
+    address = ""
+
+    def setTrainer(self,trainerTup):
+        print(trainerTup)
+        self.trainer_id,self.name,self.age,self.email,self.phone,self.gender,self.dob,self.address = trainerTup
+
+    def display(self):
+        print(self.trainer_id,self.name,self.age,self.email,self.phone,self.gender,self.dob,self.email,self.address)
 
     def __init__(self):
         '''
