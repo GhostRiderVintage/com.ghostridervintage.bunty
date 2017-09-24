@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 from flask.globals import request
-from util import Student_Util,CourseUtil,LibraryUtil,SchedulingUtil,SkillUtil, ElearningUtil, TrainerUtil,CertificateUtil
+from util import Student_Util,CourseUtil,SkillUtil, TrainerUtil,LibraryUtil,SchedulingUtil, ElearningUtil, CertificateUtil
 from builtins import str
 
 app = Flask(__name__)
