@@ -4,16 +4,13 @@ Created on Sep 23, 2017
 @author: mohommad_belal
 '''
 
-class TrainerUtil(object):
+class SkillUtil(object):
     '''
     classdocs
     '''
 
 
     def __init__(self, params):
-        '''
-        Constructor
-        '''
         pass
         '''
         Constructor
@@ -37,9 +34,7 @@ class TrainerUtil(object):
         print("returning the result")
         return result
 
-    def update_Details_To_DB(self, detail_id, details):
-        print(details)
-        print(detail_id)
+    def update_Details_To_DB(self, trainer_id, certificate_id):
         return "success"
 
     def delete_Details_From_DB(self,detail_id):
